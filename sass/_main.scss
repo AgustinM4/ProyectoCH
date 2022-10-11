@@ -1,0 +1,70 @@
+.iContenedor{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 600px 500px ;
+    grid-template-areas:     
+    "item-1 item-1 item-2 item-2"
+    "item-3 item-3 item-4 item-4"
+    "item-3 item-3 item-5 item-5";
+    row-gap: 10px;
+
+    .item-1{
+        display: grid;
+        grid-area: item-1;
+        font-family: 'Oswald', sans-serif;
+        font-size: xx-large;
+        text-decoration: underline;
+        font-weight: bold;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .item-2{
+        display: flex;
+        grid-area: item-2;
+        font-family: 'Oswald', sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: medium;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .item-3{
+        display: grid;
+        grid-area: item-3;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .item-4{
+        display: grid;
+        grid-area: item-4;
+        background-color: black;
+        justify-items: center;
+    }
+    
+    .item-5{
+        display: grid;
+        grid-area: item-5;
+        background-color: black;
+        justify-items: center;
+    }
+    
+    .aHyper{
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    p{
+        font-family: 'Oswald', sans-serif;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+}
