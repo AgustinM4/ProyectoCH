@@ -22,16 +22,13 @@
     
     
     .item-2{
-        display: flex;
         grid-area: item-2;
         font-family: 'Oswald', sans-serif;
         font-style: oblique;
         font-weight: bold;
         font-size: medium;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
+        text-align: center;
+        padding-top: 20px;
     }
     
     .item-3{
@@ -61,11 +58,13 @@
         font-weight: bold;
     }
     
-    p{
+    .p2{
         font-family: 'Oswald', sans-serif;
         font-style: oblique;
-        font-weight: bolder;
+        font-weight:800;
         font-size: large;
+        text-align: center;
+        margin-top: 200px;
     }
 
 }

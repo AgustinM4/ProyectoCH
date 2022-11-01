@@ -81,16 +81,13 @@ nav ul li a .iNav {
   justify-content: center;
 }
 .iContenedor .item-2 {
-  display: flex;
   grid-area: item-2;
   font-family: "Oswald", sans-serif;
   font-style: oblique;
   font-weight: bold;
   font-size: medium;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
+  text-align: center;
+  padding-top: 20px;
 }
 .iContenedor .item-3 {
   display: grid;
@@ -115,15 +112,30 @@ nav ul li a .iNav {
   font-size: larger;
   font-weight: bold;
 }
-.iContenedor p {
+.iContenedor .p2 {
+  font-family: "Oswald", sans-serif;
+  font-style: oblique;
+  font-weight: 800;
+  font-size: large;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.imgNos {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.dNos {
   font-family: "Oswald", sans-serif;
   font-style: oblique;
   font-weight: bolder;
   font-size: large;
-}
-
-.imgNos {
-  align-items: center;
+  text-align: center;
 }
 
 .aCce {
@@ -134,7 +146,7 @@ nav ul li a .iNav {
   align-items: center;
 }
 
-.descDiscos {
+.descAcce {
   background-color: black;
   color: bisque;
   text-align: center;
@@ -173,8 +185,9 @@ nav ul li a .iNav {
 .iDiscos .descDiscos {
   background-color: black;
   color: bisque;
-  text-align: end;
-  padding: 200px;
+  text-align: center;
+  padding: 150px;
+  height: 100px;
 }
 .iDiscos img.iDimg {
   margin-left: 60px;
@@ -189,7 +202,7 @@ nav ul li a .iNav {
   align-items: center;
 }
 
-.descDiscos {
+.descAcce {
   background-color: black;
   color: bisque;
   text-align: center;
@@ -200,6 +213,42 @@ nav ul li a .iNav {
   margin-top: 60px;
   margin-left: 60px;
   align-items: end;
+}
+
+.fInstrumentos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px 500px;
+  margin-top: 100px;
+  grid-template-areas: "inst-1 inst-2" "inst-3 inst-4";
+}
+
+.inst-1 {
+  grid-area: inst-1;
+}
+
+.inst-2 {
+  grid-area: inst-2;
+}
+
+.inst-3 {
+  grid-area: inst-3;
+}
+
+.inst-4 {
+  grid-area: inst-4;
+}
+
+.pDescripcion {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  margin-left: 200px;
 }
 
 .fInstrumentos {
@@ -233,10 +282,6 @@ nav ul li a .iNav {
   }
   footer {
     margin-top: 100px;
-  }
-  .p2 {
-    display: flex;
-    font-size: medium;
   }
   .fInstrumentos {
     grid-template-columns: 1fr;
