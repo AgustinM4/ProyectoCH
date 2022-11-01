@@ -81,13 +81,16 @@ nav ul li a .iNav {
   justify-content: center;
 }
 .iContenedor .item-2 {
+  display: flex;
   grid-area: item-2;
   font-family: "Oswald", sans-serif;
   font-style: oblique;
   font-weight: bold;
   font-size: medium;
-  text-align: center;
-  padding-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 .iContenedor .item-3 {
   display: grid;
@@ -112,13 +115,11 @@ nav ul li a .iNav {
   font-size: larger;
   font-weight: bold;
 }
-.iContenedor .p2 {
+.iContenedor p {
   font-family: "Oswald", sans-serif;
   font-style: oblique;
-  font-weight: 800;
+  font-weight: bolder;
   font-size: large;
-  text-align: center;
-  margin-top: 200px;
 }
 
 .imgNos {
@@ -245,10 +246,6 @@ nav ul li a .iNav {
   margin-bottom: 50px;
   padding-bottom: 10px;
   text-align: center;
-}
-
-img {
-  margin-left: 200px;
 }
 
 .fInstrumentos {
