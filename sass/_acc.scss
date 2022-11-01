@@ -2,15 +2,20 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 600px 600px;
+    margin-top: 20px;
+    align-items: center;
+}
+
     .descDiscos{
         background-color: black;
         color: bisque;
-        text-align: end;
+        text-align: center;
         padding: 200px;
     }
-}
+
 
 .imgAcce{
-    margin-top: 20px;
-    align-items: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    align-items: end;
 }
