@@ -6,6 +6,10 @@ p {
   font-size: large;
 }
 
+span {
+  color: red;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -105,6 +109,7 @@ nav ul li a .iNav {
   grid-area: item-5;
   background-color: black;
   justify-items: center;
+  height: 700px;
 }
 .iContenedor .aHyper {
   font-size: larger;
@@ -127,8 +132,21 @@ nav ul li a .iNav {
   height: 500px;
 }
 
+.aCce {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 600px 600px;
+}
+.aCce .descDiscos {
+  background-color: black;
+  color: bisque;
+  text-align: end;
+  padding: 200px;
+}
+
 .imgAcce {
-  height: 600px;
+  margin-top: 20px;
+  align-items: center;
 }
 
 .rSociales {
@@ -138,12 +156,48 @@ nav ul li a .iNav {
   flex-wrap: wrap;
   align-items: center;
   align-content: flex-end;
+  margin-top: 200px;
 }
 
 .icono {
   width: 40px;
   margin-top: 5px;
   padding: 0px;
+}
+
+.iDiscos {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 600px 600px 600px 600px;
+  align-items: center;
+}
+.iDiscos .descDiscos {
+  background-color: black;
+  color: bisque;
+  text-align: end;
+  padding: 200px;
+}
+.iDiscos img.iDimg {
+  margin-left: 60px;
+  align-items: end;
+}
+
+.aCce {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 600px 600px;
+}
+.aCce .descDiscos {
+  background-color: black;
+  color: bisque;
+  text-align: end;
+  padding: 200px;
+}
+
+.imgAcce {
+  margin-top: 20px;
+  align-items: center;
 }
 
 .fInstrumentos {

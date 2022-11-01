@@ -1,3 +1,16 @@
+.aCce{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+    .descDiscos{
+        background-color: black;
+        color: bisque;
+        text-align: end;
+        padding: 200px;
+    }
+}
+
 .imgAcce{
-    height: 600px;
+    margin-top: 20px;
+    align-items: center;
 }
