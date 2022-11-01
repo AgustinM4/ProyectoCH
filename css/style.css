@@ -58,11 +58,6 @@ nav ul li a .iNav {
   margin-right: 20px;
 }
 
-.iDiscos1{
-  display: flex;
-  height: 300px;
-}
-
 .iContenedor {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
