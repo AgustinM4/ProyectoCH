@@ -1,0 +1,14 @@
+.iDiscos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px 600px;
+    align-items: center;
+    .descDiscos {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 150px;
+    }
+}
+

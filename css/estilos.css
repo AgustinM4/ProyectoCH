@@ -4,6 +4,13 @@ p {
   font-style: oblique;
   font-weight: bolder;
   font-size: large;
+  padding: 100px;
+}
+p .descAcce {
+  background-color: black;
+  color: bisque;
+  text-align: center;
+  padding: 100px;
 }
 
 * {
@@ -34,6 +41,26 @@ a {
 
 span {
   color: #EF233C;
+}
+
+div .col{
+  height: 100px;
+}
+
+.rSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+  margin-top: 200px;
+}
+
+.icono {
+  width: 40px;
+  margin-top: 5px;
+  padding: 0px;
 }
 
 .navcol {
@@ -82,26 +109,8 @@ span {
   font-weight: bold;
 }
 
-.imgIns {
-  margin-left: 100px;
-  justify-content: center;
-  justify-items: center;
-}
-
 .dNos {
   color: bisque;
-}
-
-.imgNos {
-  margin-top: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-.dNos {
   font-family: "Oswald", sans-serif;
   font-style: oblique;
   font-weight: bolder;
@@ -110,34 +119,33 @@ span {
   margin-top: 100px;
 }
 
+.pDescripcion {
+  margin-top: 20px;
+  margin-right: 100px;
+  text-align: center;
+  color: bisque;
+}
+
 .aCce {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 600px 600px;
   margin-top: 20px;
 }
-
-.descAcce {
+.aCce .descAcce {
   background-color: black;
   color: bisque;
   text-align: center;
-  padding: 200px;
+  padding: 100px;
+  padding-bottom: 200px;
+  height: 100px;
+  margin-top: 100px;
 }
 
-.rSociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: flex-end;
-  margin-top: 200px;
-}
-
-.icono {
-  width: 40px;
-  margin-top: 5px;
-  padding: 0px;
+.imgAcce {
+  margin-top: 60px;
+  margin-left: 60px;
+  align-items: end;
 }
 
 .iDiscos {
@@ -147,38 +155,11 @@ span {
   grid-template-rows: 600px 600px 600px 600px;
   align-items: center;
 }
-
 .iDiscos .descDiscos {
   background-color: black;
   color: bisque;
   text-align: center;
   padding: 150px;
-}
-
-.iDiscos img.iDimg {
-  margin-top: 50px;
-  margin-left: 60px;
-}
-
-.aCce {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 600px 600px;
-  margin-top: 20px;
-  align-items: center;
-}
-
-.descAcce {
-  background-color: black;
-  color: bisque;
-  text-align: center;
-  padding: 100px;
-}
-
-.imgAcce {
-  margin-top: 60px;
-  margin-left: 60px;
-  align-items: end;
 }
 
 .fInstrumentos {
@@ -205,12 +186,6 @@ span {
   grid-area: inst-4;
 }
 
-.pDescripcion {
-  margin-right: 100px;
-  text-align: center;
-  color: bisque;
-}
-
 .row {
   margin-top: 200px;
   height: 500px;
@@ -221,21 +196,6 @@ div.col {
   padding: 0;
 }
 
-inst-1.img {
-  margin-left: 50px;
-}
-
-inst-2.img {
-  margin-left: 50px;
-}
-
-inst-3.img {
-  margin-left: 50px;
-}
-
-inst-4.img {
-  margin-left: 50px;
-}
 
 .fInstrumentos {
   display: grid;

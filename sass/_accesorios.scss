@@ -1,0 +1,22 @@
+.aCce {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+    margin-top: 20px;
+    .descAcce {
+        background-color: black;
+        color: bisque;
+        text-align: center;
+        padding: 100px;
+        padding-bottom: 200px;
+        height: 100px;
+        margin-top: 100px;
+    }
+}
+
+.imgAcce {
+    margin-top: 60px;
+    margin-left: 60px;
+    align-items: end;
+}
+

@@ -28,6 +28,22 @@ span {
     color: #EF233C;
 }
 
+.rSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 200px;
+}
+
+.icono {
+    width: 40px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
 .navcol{
     background-color: #D3D3D3;
 }
