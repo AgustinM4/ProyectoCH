@@ -5,6 +5,7 @@ p {
   font-weight: bolder;
   font-size: large;
   padding: 100px;
+  color: bisque;
 }
 p .descAcce {
   background-color: black;
@@ -69,9 +70,8 @@ div .col{
 
 .iContenedor {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 10% 600px 500px;
-  grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-4 item-4" "item-3 item-3 item-5 item-5";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   row-gap: 10px;
 }
 
@@ -126,65 +126,6 @@ div .col{
   color: bisque;
 }
 
-.aCce {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 600px 600px;
-  margin-top: 20px;
-}
-.aCce .descAcce {
-  background-color: black;
-  color: bisque;
-  text-align: center;
-  padding: 100px;
-  padding-bottom: 200px;
-  height: 100px;
-  margin-top: 100px;
-}
-
-.imgAcce {
-  margin-top: 60px;
-  margin-left: 60px;
-  align-items: end;
-}
-
-.iDiscos {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 600px 600px 600px 600px;
-  align-items: center;
-}
-.iDiscos .descDiscos {
-  background-color: black;
-  color: bisque;
-  text-align: center;
-  padding: 150px;
-}
-
-.fInstrumentos {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 500px 500px;
-  margin-top: 100px;
-  grid-template-areas: "inst-1 inst-2" "inst-3 inst-4";
-}
-
-.inst-1 {
-  grid-area: inst-1;
-}
-
-.inst-2 {
-  grid-area: inst-2;
-}
-
-.inst-3 {
-  grid-area: inst-3;
-}
-
-.inst-4 {
-  grid-area: inst-4;
-}
 
 .row {
   margin-top: 200px;
@@ -197,49 +138,94 @@ div.col {
 }
 
 
-.fInstrumentos {
+.iContenedor {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 500px 500px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 10% 600px 500px;
+  grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-4 item-4" "item-3 item-3 item-5 item-5";
+  row-gap: 50px;
+}
+.iContenedor .item-1 {
   margin-top: 100px;
-  grid-template-areas: "inst-1 inst-2" "inst-3 inst-4";
+  color: bisque;
+  display: grid;
+  grid-area: item-1;
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  text-decoration: underline;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.iContenedor .item-2 {
+  margin-top: 100px;
+  color: bisque;
+  display: flex;
+  grid-area: item-2;
+  font-family: "Oswald", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: medium;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.iContenedor .item-3 {
+  display: grid;
+  grid-area: item-3;
+  justify-content: center;
+  justify-items: center;
+}
+.iContenedor .item-4 {
+  display: grid;
+  grid-area: item-4;
+  background-color: black;
+  justify-items: center;
+}
+.iContenedor .item-5 {
+  display: grid;
+  grid-area: item-5;
+  background-color: black;
+  justify-items: center;
+  height: 500px;
+}
+.iContenedor .aHyper {
+  font-size: larger;
+  font-weight: bold;
+}
+.iContenedor p {
+  font-family: "Oswald", sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: large;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px){
   .iContenedor {
     margin: 0;
-    height: 3000px;
+    height: 2000px;
     grid-template-columns: 1fr;
     grid-template-rows: 5% 5% 20% 1fr 1fr;
     grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5";
+    row-gap: 100px;
   }
   .item-2, .item-3, .item-4, .item-5, nav ul, footer {
     max-width: 100vw;
+  }
+  .item-1{
+    height: 100px;
   }
   .item-3 img {
     max-width: 90vw;
   }
   .item-2 {
-    display: block;
-    height: 200px;
+    height: 100px;
   }
-  body {
-    max-height: 850px;
   }
   footer {
-    margin-top: 100px;
+    margin-top: 300px;
   }
-  .fInstrumentos {
-    grid-template-columns: 1fr;
-    grid-template-areas: "inst-1" "inst-2" "inst-3" "inst-4";
-  }
-  .inst-1 img {
-    width: 90vw;
-  }
-  .inst-2 img {
-    width: 90vw;
-  }
-  .inst-4 img {
-    width: 90vw;
-  }
-}/*# sourceMappingURL=estilos.css.map */
+
+/*# sourceMappingURL=estilos.css.map */
