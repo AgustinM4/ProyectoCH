@@ -6,10 +6,6 @@ p {
   font-size: large;
 }
 
-.p2 {
-  color: bisque;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -44,16 +40,6 @@ span {
   background-color: #D3D3D3;
 }
 
-.imgIns {
-  margin-left: 100px;
-  justify-content: center;
-  justify-items: center;
-}
-
-.dNos {
-  color: bisque;
-}
-
 .iContenedor {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -62,36 +48,14 @@ span {
   row-gap: 10px;
 }
 
-.iContenedor .item-1 {
-  display: grid;
-  grid-area: item-1;
-  font-family: "Oswald", sans-serif;
-  font-size: xx-large;
-  text-decoration: underline;
-  font-weight: bold;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.iContenedor .item-2 {
-  display: flex;
-  grid-area: item-2;
-  font-family: "Oswald", sans-serif;
-  font-style: oblique;
-  font-weight: bold;
-  font-size: medium;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
-
 .iContenedor .item-3 {
   display: grid;
   grid-area: item-3;
   justify-content: center;
   justify-items: center;
+}
+.iContenedor .item-3 .p2 {
+  color: bisque;
 }
 
 .iContenedor .item-4 {
@@ -101,6 +65,10 @@ span {
   justify-items: center;
   height: 500px;
 }
+.iContenedor .item-4 .aHyper {
+  font-size: larger;
+  font-weight: bold;
+}
 
 .iContenedor .item-5 {
   display: grid;
@@ -109,17 +77,19 @@ span {
   justify-items: center;
   height: 500px;
 }
-
-.iContenedor .aHyper {
+.iContenedor .item-5 .aHyper {
   font-size: larger;
   font-weight: bold;
 }
 
-.iContenedor p {
-  font-family: "Oswald", sans-serif;
-  font-style: oblique;
-  font-weight: bolder;
-  font-size: large;
+.imgIns {
+  margin-left: 100px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.dNos {
+  color: bisque;
 }
 
 .imgNos {
