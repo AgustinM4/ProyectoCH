@@ -32,26 +32,25 @@ footer {
   margin-bottom: 0px;
 }
 
-a{
+a {
   color: #EF233C;
 }
 
-
-.imgIns{
+.imgIns {
   margin-left: 100px;
   justify-content: center;
   justify-items: center;
 }
 
-.navcol{
+.navcol {
   background-color: #D3D3D3;
 }
 
-.dNos{
+.dNos {
   color: bisque;
 }
 
-.p2{ 
+.p2 {
   color: bisque;
 }
 
@@ -62,6 +61,7 @@ a{
   grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-4 item-4" "item-3 item-3 item-5 item-5";
   row-gap: 10px;
 }
+
 .iContenedor .item-1 {
   display: grid;
   grid-area: item-1;
@@ -73,6 +73,7 @@ a{
   align-items: center;
   justify-content: center;
 }
+
 .iContenedor .item-2 {
   display: flex;
   grid-area: item-2;
@@ -85,12 +86,14 @@ a{
   align-items: center;
   justify-content: flex-end;
 }
+
 .iContenedor .item-3 {
   display: grid;
   grid-area: item-3;
   justify-content: center;
   justify-items: center;
 }
+
 .iContenedor .item-4 {
   display: grid;
   grid-area: item-4;
@@ -98,6 +101,7 @@ a{
   justify-items: center;
   height: 500px;
 }
+
 .iContenedor .item-5 {
   display: grid;
   grid-area: item-5;
@@ -105,10 +109,12 @@ a{
   justify-items: center;
   height: 500px;
 }
+
 .iContenedor .aHyper {
   font-size: larger;
   font-weight: bold;
 }
+
 .iContenedor p {
   font-family: "Oswald", sans-serif;
   font-style: oblique;
@@ -171,12 +177,14 @@ a{
   grid-template-rows: 600px 600px 600px 600px;
   align-items: center;
 }
+
 .iDiscos .descDiscos {
   background-color: black;
   color: bisque;
   text-align: center;
   padding: 150px;
 }
+
 .iDiscos img.iDimg {
   margin-top: 50px;
   margin-left: 60px;
@@ -195,7 +203,6 @@ a{
   color: bisque;
   text-align: center;
   padding: 100px;
-
 }
 
 .imgAcce {
@@ -234,11 +241,12 @@ a{
   color: bisque;
 }
 
-.row{
+.row {
   margin-top: 200px;
   height: 500px;
 }
-div.col{
+
+div.col {
   height: 500px;
   padding: 0;
 }
@@ -304,6 +312,4 @@ inst-4.img {
   .inst-4 img {
     width: 90vw;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=estilos.css.map */

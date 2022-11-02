@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap");
+p {
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+}
+
+span {
+    color: #EF233C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #161A1D;
+    margin-bottom: 0px;
+}
+
+section {
+    font-family: "Oswald", sans-serif;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #D3D3D3;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+a{
+    color: #EF233C;
+}
+
+
+.imgIns{
+    margin-left: 100px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navcol{
+    background-color: #D3D3D3;
+}
+
+.dNos{
+    color: bisque;
+}
+
+.p2{ 
+    color: bisque;
+}
+
+.iContenedor {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 600px 500px;
+    grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-4 item-4" "item-3 item-3 item-5 item-5";
+    row-gap: 10px;
+}
+.iContenedor .item-1 {
+    display: grid;
+    grid-area: item-1;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.iContenedor .item-2 {
+    display: flex;
+    grid-area: item-2;
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iContenedor .item-3 {
+    display: grid;
+    grid-area: item-3;
+    justify-content: center;
+    justify-items: center;
+}
+.iContenedor .item-4 {
+    display: grid;
+    grid-area: item-4;
+    background-color: black;
+    justify-items: center;
+    height: 500px;
+}
+.iContenedor .item-5 {
+    display: grid;
+    grid-area: item-5;
+    background-color: black;
+    justify-items: center;
+    height: 500px;
+}
+.iContenedor .aHyper {
+    font-size: larger;
+    font-weight: bold;
+}
+.iContenedor p {
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.imgNos {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.dNos {
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.aCce {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+    margin-top: 20px;
+}
+
+.descAcce {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 200px;
+}
+
+.rSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 200px;
+}
+
+.icono {
+    width: 40px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.iDiscos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px 600px;
+    align-items: center;
+}
+.iDiscos .descDiscos {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 150px;
+}
+.iDiscos img.iDimg {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.aCce {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.descAcce {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.imgAcce {
+    margin-top: 60px;
+    margin-left: 60px;
+    align-items: end;
+}
+
+.fInstrumentos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    margin-top: 100px;
+    grid-template-areas: "inst-1 inst-2" "inst-3 inst-4";
+}
+
+.inst-1 {
+    grid-area: inst-1;
+}
+
+.inst-2 {
+    grid-area: inst-2;
+}
+
+.inst-3 {
+    grid-area: inst-3;
+}
+
+.inst-4 {
+    grid-area: inst-4;
+}
+
+.pDescripcion {
+    margin-right: 100px;
+    text-align: center;
+    color: bisque;
+}
+
+.row{
+    margin-top: 200px;
+    height: 500px;
+}
+div.col{
+    height: 500px;
+    padding: 0;
+}
+
+inst-1.img {
+    margin-left: 50px;
+}
+
+inst-2.img {
+    margin-left: 50px;
+}
+
+inst-3.img {
+    margin-left: 50px;
+}
+
+inst-4.img {
+    margin-left: 50px;
+}
+
+.fInstrumentos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    margin-top: 100px;
+    grid-template-areas: "inst-1 inst-2" "inst-3 inst-4";
+}
+
+@media (max-width: 500px) {
+    .iContenedor {
+    margin: 0;
+    height: 3000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 5% 20% 1fr 1fr;
+    grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5";
+    }
+    .item-2, .item-3, .item-4, .item-5, nav ul, footer {
+    max-width: 100vw;
+    }
+    .item-3 img {
+    max-width: 90vw;
+    }
+    .item-2 {
+    display: block;
+    height: 200px;
+    }
+    body {
+    max-height: 850px;
+    }
+    footer {
+    margin-top: 100px;
+    }
+    .fInstrumentos {
+    grid-template-columns: 1fr;
+    grid-template-areas: "inst-1" "inst-2" "inst-3" "inst-4";
+    }
+    .inst-1 img {
+    width: 90vw;
+    }
+    .inst-2 img {
+    width: 90vw;
+    }
+    .inst-4 img {
+    width: 90vw;
+    }
+}
