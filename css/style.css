@@ -36,8 +36,11 @@ a{
   color: #EF233C;
 }
 
-img{
-  align-items: center;
+
+.imgIns{
+  margin-left: 100px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .navcol{
@@ -231,10 +234,7 @@ img{
 }
 
 .pDescripcion {
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 50px;
-  padding-bottom: 10px;
+  margin-right: 100px;
   text-align: center;
   color: bisque;
 }
