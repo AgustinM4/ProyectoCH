@@ -6,8 +6,8 @@ p {
   font-size: large;
 }
 
-span {
-  color: #EF233C;
+.p2 {
+  color: bisque;
 }
 
 * {
@@ -36,21 +36,21 @@ a {
   color: #EF233C;
 }
 
-.imgIns {
-  margin-left: 100px;
-  justify-content: center;
-  justify-items: center;
+span {
+  color: #EF233C;
 }
 
 .navcol {
   background-color: #D3D3D3;
 }
 
-.dNos {
-  color: bisque;
+.imgIns {
+  margin-left: 100px;
+  justify-content: center;
+  justify-items: center;
 }
 
-.p2 {
+.dNos {
   color: bisque;
 }
 
