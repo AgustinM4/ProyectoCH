@@ -178,9 +178,8 @@ a{
   padding: 150px;
 }
 .iDiscos img.iDimg {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 60px;
-  align-items: end;
 }
 
 .aCce {
@@ -239,8 +238,9 @@ a{
   margin-top: 200px;
   height: 500px;
 }
-.col{
+div.col{
   height: 500px;
+  padding: 0;
 }
 
 inst-1.img {
