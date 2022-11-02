@@ -10,6 +10,10 @@ span {
   color: red;
 }
 
+.nav-link {
+  color: bisque;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -33,33 +37,8 @@ footer {
   margin-bottom: 0px;
 }
 
-nav {
-  background-color: black;
-  padding: 30px;
-  font-style: italic;
-  font-weight: normal;
-  font-size: larger;
-  font-family: sans-serif;
-  text-align: center;
-  line-height: 1.8;
-}
-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-}
-nav ul li {
-  list-style-type: none;
-}
-nav ul li a {
-  text-decoration: none;
+.nav-link {
   color: bisque;
-}
-nav ul li a .iNav {
-  margin-right: 20px;
 }
 
 .iContenedor {
@@ -246,6 +225,22 @@ nav ul li a .iNav {
   margin-bottom: 50px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+inst-1.img {
+  margin-left: 50px;
+}
+
+inst-2.img {
+  margin-left: 50px;
+}
+
+inst-3.img {
+  margin-left: 50px;
+}
+
+inst-4.img {
+  margin-left: 50px;
 }
 
 .fInstrumentos {
