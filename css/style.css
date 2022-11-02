@@ -170,7 +170,7 @@ a{
 }
 
 .iDiscos {
-  margin-top: 20px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 600px 600px 600px 600px;
@@ -181,9 +181,9 @@ a{
   color: bisque;
   text-align: center;
   padding: 150px;
-  height: 100px;
 }
 .iDiscos img.iDimg {
+  margin-top: 100px;
   margin-left: 60px;
   align-items: end;
 }
@@ -200,7 +200,8 @@ a{
   background-color: black;
   color: bisque;
   text-align: center;
-  padding: 200px;
+  padding: 100px;
+
 }
 
 .imgAcce {
